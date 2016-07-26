@@ -1,0 +1,24 @@
+body {
+  margin:0;
+  background-color: #ffffff; /* Sets the background color of the website */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1000px; /*Set the width of the entire website here */
+  margin: auto; /* Margin-left and right are set to auto to center the container */
+}
+
+.row {
+  width: 100%;
+  clear: both; /* Clear creates new styles for the next row */
+  padding: 0px;
+}
+
